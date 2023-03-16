@@ -18,7 +18,7 @@ const About = ()=>{
         ]
       };
     return(
-        <Box>
+        <Box style={{width:800}}>
     <h1>About</h1>
     <Typography>My name is Lekha Saraf. I am from Jabalpur(MP). I have 3+ years of experience in Software Development. My main skills are Solidity, Nodejs and Reactjs. I have interset in learning new Technologies and I am an enthusiastic learner.</Typography>
   <ReactECharts option={option} />
