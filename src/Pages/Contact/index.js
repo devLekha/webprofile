@@ -10,12 +10,12 @@ const Contact = ()=>{
        <Box><SmartphoneIcon/>91+ 9424624464</Box> 
         <Box><EmailIcon/>lekhasaraf09@gmail.com</Box>
         <a href="https://www.linkedin.com/in/lekha-saraf-524907187" target="_blank" rel="noreferrer">
-        <LinkedInIcon/>
+        <Box><LinkedInIcon/> Linkedin</Box>
         </a>
         <h3>Work Refrence</h3>
         <a href="https://stackoverflow.com/users/10380319/crypto-s?tab=profile" target="_blank" rel="noreferrer">stackoverflow</a>
         <a href="https://github.com/devLekha" target="_blank" rel="noreferrer">
-        <GitHubIcon/>
+        <GitHubIcon/> Github
         </a>
         </Box>
     )
