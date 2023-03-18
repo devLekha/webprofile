@@ -1,6 +1,6 @@
 import {Box} from '@mui/material'
 const Education=()=>{
-    return(<Box style={{width:700}}>
+    return(<Box >
     <h1>Education</h1>
     <Box sx={{
         backgroundColor: 'orange',
