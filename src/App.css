@@ -4,8 +4,8 @@
 
 
 
-@media (prefers-reduced-motion: no-preference) {
-  
+@media only screen and (mmax-width: 600px) {
+
 }
 
 
