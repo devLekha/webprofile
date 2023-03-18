@@ -6,6 +6,7 @@ import Education from '../../Pages/Education'
 import Experience from '../../Pages/Experience'
 import Contact from '../../Pages/Contact'
 const Profile = ()=>{
+ 
   const [num, setNum]= useState(0)
   const changeNum = (newnum)=>{
     setNum(newnum)

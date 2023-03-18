@@ -1,6 +1,7 @@
+// import { useMediaQuery } from 'react-responsive'
 import {useState} from 'react'
 import {Box} from '@mui/material'
-import Sidebar from '../Sidebar'
+import Mobilesidebar from '../Sidebar/mobilesidebar'
 import About from '../../Pages/About'
 import Education from '../../Pages/Education'
 import Experience from '../../Pages/Experience'
@@ -12,6 +13,7 @@ const Mobile = ()=>{
   }
   console.log("value of num", num)
 const myTab = ()=>{
+  
   if(num === 0)
   return   <About/>
   else if(num === 1)
@@ -24,8 +26,8 @@ const myTab = ()=>{
   return <About/>
 }
 return(
-  <Box style={{display:'flex'}}>
-    <Sidebar changeNum={changeNum}/>
+  <Box style={{display:'flex', flexDirection:'column', alignItem:'center'}}>
+    <Mobilesidebar changeNum={changeNum}/>
     <Box >
      <Box  component="img"
         sx={{
