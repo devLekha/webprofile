@@ -26,7 +26,7 @@ const myTab = ()=>{
 return(
   <Box style={{display:'flex', marginLeft:200}}>
     <Sidebar changeNum={changeNum}/>
-    <Box style={{height:500, border:'1px solid blue', width:1000, display:'flex', justifyContent:'space-around'}}>
+    <Box style={{height:500, border:'1px solid blue', width:'80%',  display:'flex', justifyContent:'space-around'}}>
      <Box  component="img"
         sx={{
           maxHeight: { xs: 233, md: 167 },

@@ -18,9 +18,11 @@ const About = ()=>{
         ]
       };
     return(
-        <Box style={{width:800}}>
+        <Box style={{height:800, width: '100%', maxWidth: 500}}>
     <h1>About</h1>
-    <Typography>My name is Lekha Saraf. I am from Jabalpur(MP). I have 3+ years of experience in Software Development. My main skills are Solidity, Nodejs and Reactjs. I have interset in learning new Technologies and I am an enthusiastic learner.</Typography>
+    <Typography variant="body1" gutterBottom>My name is Lekha Saraf. I am from Jabalpur(MP).
+     I have 3+ years of experience in Software Development. My main skills are Solidity, Nodejs and Reactjs.
+      I have interset in learning new Technologies and I am an enthusiastic learner.</Typography>
   <ReactECharts option={option} />
     </Box>
     )
