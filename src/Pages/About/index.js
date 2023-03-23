@@ -18,7 +18,7 @@ const About = ()=>{
         ]
       };
     return(
-        <Box style={{height:800, width: '100%', maxWidth: 500}}>
+        <Box style={{ width: '100%', maxWidth: 500}}>
     <h1>About</h1>
     <Typography variant="body1" gutterBottom>My name is Lekha Saraf. I am from Jabalpur(MP).
      I have 3+ years of experience in Software Development. My main skills are Solidity, Nodejs and Reactjs.
